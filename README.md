@@ -11,4 +11,4 @@
   <li>Change the links and text in Navigation.tsx file inside the NavBar folder</li>
   <li>That's it! Your fully functional, animated navbar is ready to use...</li>
 </ol>
-# Happy Hacking !!!
+<h1> Happy Hacking !!! </h1>
