@@ -4,6 +4,8 @@
 <ol>
   <li>Once your react project is created, clone the componants folder into your project</li>
   <li>Paste the contents of global.css file into your project's global.css file</li>
+   <li>Do "npm i gsap" into the terminal</li>
+  
   <li>Write the following code:</br>
  <b>import Navigation from '../app/components/NavBar/Navigation'</b></br>
  <b> <"Navigation"> </b>// Put this in the file where you want to display the navbar (Without the double quotes)
