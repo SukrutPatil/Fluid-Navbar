@@ -1,0 +1,51 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #F8FFDD;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.navLinksUl{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right,#252525, #3c3c3c);
+  position: fixed;
+  z-index: 5;
+  display: none;
+  clip-path: circle(100px at 90% -10%);
+  -webkit-clip-path: circle(100px at 90% -10%);
+  transition: all 1s ease-out
+}
+.navLinksUl2{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  justify-content: space-around;
+  align-items: center;
+   background: linear-gradient(to right,#252525, #3c3c3c);
+  position: fixed;
+  clip-path: circle(200vh at 90% -10%);
+  -webkit-clip-path: circle(200vh at 90% -10%);
+
+}
+
